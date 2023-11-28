@@ -1,0 +1,6 @@
+_build/
+*.cmi
+*.cmo
+*.exe
+*.out
+*.o

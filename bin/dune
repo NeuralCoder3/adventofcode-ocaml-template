@@ -1,0 +1,11 @@
+(executable
+ (public_name aoc)
+ (name main)
+ (libraries utils str
+  ; lp lp-glpk z3 
+ ))
+
+(env
+  (dev
+  (flags (:standard -w -33)))
+)
