@@ -7,7 +7,6 @@ RUN opam pin lp --dev-repo && \
     opam install lp lp-glpk && \
     opam pin lp-glpk-js --dev-repo && \
     opam install lp-glpk-js
-RUN opam install z3
 
 RUN opam install ocaml-lsp-server ocamlformat merlin
 RUN opam user-setup install
